@@ -1,0 +1,9 @@
+title: realsadcry twitter feed
+email: nvhbmail88@gmail.com
+description:
+ collection of @realsadcry tweets
+baseurl: "/twitterfeed" # the subpath of your site, e.g. /blog
+url: "http://sadcry.github.io" # the base hostname & protocol for your site
+# Build settings
+markdown: kramdown
+permalink: pretty

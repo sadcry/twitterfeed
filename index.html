@@ -1,0 +1,17 @@
+--- 
+layout: default 	
+---
+<h1 class="u-center u-secondary u-pull-center u-size-default">@realsadcry</h1>
+<p class="u-pull-center">Not actually sad, I'm quite happy.</p>
+<div class="u-pull-center u-margin-b t-button">
+    <a href="https://twitter.com/realsadcry" class="twitter-follow-button" data-show-count="false" data-btn="#0DFE79"></a>
+</div>
+<div class="grid">
+    <div class="grid-sizer"></div>
+    {% for post in site.posts %}
+    <div class="grid-item">
+        <img src="{{ post.img }}" alt="{{ post.title }}" />
+        <div class="box-share fb-svg"><a href="https://twitter.com/intent/retweet?tweet_id={{post.retweet}}">{% include retweet-arrows.svg %}</a></div>
+    </div>
+    {% endfor %}
+</div>

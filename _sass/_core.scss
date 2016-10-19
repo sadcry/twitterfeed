@@ -1,0 +1,75 @@
+body {
+	background-color: black;
+	color: $primary;
+	font-family: 'Raleway', sans-serif;
+}
+
+.t-button {
+	height: 20px;
+}
+
+/* Mason Grid Settings */
+
+.grid {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-item {
+	float: left;
+	overflow: hidden;
+	width: 180px;
+	min-height: 80px;
+	margin: 0px 3px 0px 0px;
+	border: 1px solid $secondary;
+	border-radius: 12px;
+	margin-bottom: 12px;
+		img {
+			max-width: 100%;
+			border-radius: 10px 10px 0px 0px;
+		}
+}
+
+.grid-sizer {
+	width: 20px;
+}
+
+/* share box */
+
+.box-share {
+	height: 10px;
+	padding-bottom: 20px;
+		svg {
+			fill: $secondary;
+			font-size: 12px;
+			height: 200%;
+			margin: 0 auto;
+			display: block;
+			padding-top: 2px;
+		}
+}
+
+/* Default Settings */ 
+
+.u-secondary {
+	color: $secondary;
+}
+
+.u-pull-center {
+	text-align: center;
+}
+
+.u-size-default {
+	font-size: 1.5em;
+}
+
+.u-margin-b {
+	margin-bottom: 15px;
+}
+
