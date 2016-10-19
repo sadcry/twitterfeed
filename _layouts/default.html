@@ -33,7 +33,7 @@
 	<!-- images reloaded -->
 	<script src="assets/js/imgreload.js"></script>
 	<!-- initialize masonry grid -->
-	<script>	
+	<script>		
 		var msnry = new Masonry( '.grid', {
 		  /* 
 		  	Masonry Settings
@@ -42,8 +42,8 @@
 			itemSelector		: '.grid-item',
 			fitWidth			: true,
 		});
-		imagesLoaded(grid).on( 'progress', function() {
+		imagesLoaded('.grid').on( 'progress', function() {
 		  msnry.layout();
-		});	
+		});
 	</script>
 </html>
